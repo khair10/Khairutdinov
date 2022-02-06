@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TinkoffLabApp</string>
+    <string name="author_example">Author: Goga</string>
+    <string name="title_example">Best title in the world</string>
+    <string name="next_button">Next</string>
+    <string name="back_button">Back</string>
+    <string name="latest">Последние</string>
+    <string name="hot">Горячие</string>
+    <string name="top">Лучшие</string>
+    <string name="random">Рандом</string>
 </resources>

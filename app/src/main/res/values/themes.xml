@@ -12,5 +12,34 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="materialCardViewStyle">@style/Card</item>
+        <item name="materialButtonStyle">@style/Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Button.Outlined</item>
+    </style>
+
+    <style name="Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">8dp</item>
+        <item name="cardCornerRadius">8dp</item>
+    </style>
+
+    <style name="Text" parent="Widget.MaterialComponents.TextView">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.CardTitle">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+    </style>
+
+    <style name="Text.CardAuthor">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">8dp</item>
     </style>
 </resources>
